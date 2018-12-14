@@ -1,0 +1,71 @@
+
+
+@font-face {
+    font-family: limerickSerialBold;
+    src: url("./fonts/Limerick-Serial-Bold.ttf");
+}
+
+div {
+    font-family: limerickSerialBold;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.76) !important;
+  }
+  
+  li.nav-item{
+    color: #F39200 !important;
+  }
+
+.navbar {
+    width: 100%;
+}
+
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #F39200;
+}
+
+.navbar-content {
+    float: left;
+}
+
+.vr{
+    color: white;
+    display: inline-block;
+}
+
+.navbar-language {
+    float: right;
+    font-size: 0.8em;
+}
+
+button#searchicon{
+    
+    background-color: white;
+}
+
+button#searchicon:hover,
+button#searchicon:focus{
+    background-color: #4CAF50; 
+    
+    
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
